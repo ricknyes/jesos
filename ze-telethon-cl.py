@@ -143,13 +143,22 @@ async def start(event):
         chat = await event.get_chat()
         buttons = [
            
-        [Button.inline('- اضافة رقـم ➕', '}~'), Button.inline(' - حـذف رقـم ➖', 'delete')],
-         [Button.inline('- تعيين البوت 🤖', 'ububo')],
-        [Button.inline('بــــدء التجميع ✓', 'button3'), Button.inline('ايقاف التجميع ✘ ', 'button4')],
-        [Button.inline('تـحويل النقاط ⎋', 'button5'), Button.inline('عــدد الـنـقـاطـ ⏚', 'button6')],
-        [Button.inline('فك الحضر ⦿', 'unblock'), Button.inline('حضر البوت ⨷', 'button21')],
-        [Button.inline('مغادرة القنوات ⎙', 'buttton11'), Button.inline('الهدية اليومية ⚘', 'a6gi2ft')],
-        [Button.inline('- المزيد من الاوامر', 'hth')],
+        [Button.inline('اضافة رقـم ✚', 'button1'), Button.inline('حـذف رقـم ⌫', 'delete')],
+	            [Button.inline('⬎ اوامر الـتـجـمــيـع ⬐', 'button01')],
+	            [Button.inline('• تعيين البوت •', 'ububo')],
+            [Button.inline('بــــدء التجميع ✓', 'button3'), Button.inline('ايقاف التجميع ✘ ', 'button4')],
+            [Button.inline('تـحويل النقاط ⎋', 'button5'), Button.inline('عــدد الـنـقـاطـ ⏚', 'button6')],
+            [Button.inline('فك الحضر ⦿', 'unblock'), Button.inline('حضر البوت ⨷', 'button21')],
+            [Button.inline('مغادرة القنوات ⎙', 'buttton11'), Button.inline('الهدية اليومية ⚘', 'a6gi2ft')],
+            [Button.inline('⪻ بوت دعمكم ⪼', 'da3mkom')],
+        [Button.inline('رشق تـصـويت ⛥', 'button7'), Button.inline('تـفــعـيل بــوت 〠', 'button8')],
+        [Button.inline('رشـــق قناة ⊕', 'buttton311'), Button.inline('مغادرة قناة ⊖', 'buttton251')],
+        [Button.inline('رشق مشاهدات ⟐', 'buttonn511')],
+        [Button.inline('تحكم خاص ¥', 'btp'), Button.inline('فحص الحسابات ⚚', 'tst')],
+        [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
+        [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
+        [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
+         [Button.inline('༺ بيدو ༻', 'button0')]
         ]
         await bot.send_message(chat, '''**بيدوو**''', buttons=buttons)
 
